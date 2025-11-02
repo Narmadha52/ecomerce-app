@@ -1,14 +1,14 @@
 // src/main/java/com/ecommerce/backend/payment/service/PaymentService.java
 
-package com.ecommerce.backend.payment.service;
+package com.ecommerce.backend.service;
 
-import com.ecommerce.backend.order.model.Order;
-import com.ecommerce.backend.order.model.OrderStatus;
-import com.ecommerce.backend.order.repository.OrderRepository;
-import com.ecommerce.backend.payment.dto.PaymentOrderDto;
-import com.ecommerce.backend.payment.dto.PaymentVerificationDto;
-import com.ecommerce.backend.payment.model.Transaction;
-import com.ecommerce.backend.payment.repository.TransactionRepository;
+import com.ecommerce.backend.model.Order;
+import com.ecommerce.backend.model.OrderStatus;
+import com.ecommerce.backend.repository.OrderRepository;
+import com.ecommerce.backend.dto.PaymentOrderDto;
+import com.ecommerce.backend.dto.PaymentVerificationDto;
+import com.ecommerce.backend.model.Transaction;
+import com.ecommerce.backend.repository.TransactionRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
