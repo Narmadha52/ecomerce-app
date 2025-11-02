@@ -1,4 +1,4 @@
-package com.ecommerce.backend.category.model;
+package com.ecommerce.backend.model;
 
 import jakarta.persistence.*;
 import lombok.*;
