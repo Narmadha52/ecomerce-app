@@ -1,9 +1,9 @@
 // src/main/java/com/ecommerce/backend/category/controller/CategoryController.java
 
-package com.ecommerce.backend.category.controller;
+package com.ecommerce.backend.controller;
 
-import com.ecommerce.backend.category.model.Category;
-import com.ecommerce.backend.category.service.CategoryService;
+import com.ecommerce.backend.model.Category;
+import com.ecommerce.backend.service.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
