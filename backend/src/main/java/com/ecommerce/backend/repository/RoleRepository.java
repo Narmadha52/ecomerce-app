@@ -1,7 +1,7 @@
-package com.ecommerce.backend.user.repository;
+package com.ecommerce.backend.repository;
 
-import com.ecommerce.backend.user.model.ERole;
-import com.ecommerce.backend.user.model.Role; // FIX: Correct Role model import
+import com.ecommerce.backend.model.ERole;
+import com.ecommerce.backend.model.Role; // FIX: Correct Role model import
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
