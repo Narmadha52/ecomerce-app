@@ -1,8 +1,8 @@
 // src/main/java/com/ecommerce/backend/payment/model/Transaction.java
 
-package com.ecommerce.backend.payment.model;
+package com.ecommerce.backend.model;
 
-import com.ecommerce.backend.order.model.Order;
+import com.ecommerce.backend.model.Order;
 import jakarta.persistence.*;
 import lombok.Data;
 import lombok.NoArgsConstructor;
