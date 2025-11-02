@@ -1,15 +1,15 @@
-package com.ecommerce.backend.order.service;
+package com.ecommerce.backend.service;
 
-import com.ecommerce.backend.cart.model.Cart;
-import com.ecommerce.backend.cart.repository.CartRepository;
+import com.ecommerce.backend.model.Cart;
+import com.ecommerce.backend.repository.CartRepository;
 import com.ecommerce.backend.exception.ResourceNotFoundException;
-import com.ecommerce.backend.order.model.Order;
-import com.ecommerce.backend.order.model.OrderItem;
-import com.ecommerce.backend.order.model.OrderStatus;
-import com.ecommerce.backend.order.payload.CheckoutRequest;
-import com.ecommerce.backend.order.repository.OrderItemRepository;
-import com.ecommerce.backend.order.repository.OrderRepository;
-import com.ecommerce.backend.user.repository.UserRepository;
+import com.ecommerce.backend.model.Order;
+import com.ecommerce.backend.model.OrderItem;
+import com.ecommerce.backend.model.OrderStatus;
+import com.ecommerce.backend.payload.CheckoutRequest;
+import com.ecommerce.backend.repository.OrderItemRepository;
+import com.ecommerce.backend.repository.OrderRepository;
+import com.ecommerce.backend.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
