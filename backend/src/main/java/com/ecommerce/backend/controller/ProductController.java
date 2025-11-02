@@ -1,7 +1,7 @@
 package com.ecommerce.backend.controller;
 
-import com.ecommerce.backend.product.model.Product;
-import com.ecommerce.backend.product.service.ProductService;
+import com.ecommerce.backend.model.Product;
+import com.ecommerce.backend.service.ProductService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
