@@ -1,6 +1,6 @@
-package com.ecommerce.backend.user.controller;
+package com.ecommerce.backend.controller;
 
-import com.ecommerce.backend.user.service.UserService;
+import com.ecommerce.backend.service.UserService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
