@@ -1,4 +1,4 @@
-package com.ecommerce.backend.order.model;
+package com.ecommerce.backend.model;
 
 /**
  * Defines the possible statuses for an order.
