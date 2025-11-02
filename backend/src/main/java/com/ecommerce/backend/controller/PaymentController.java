@@ -1,11 +1,11 @@
 // src/main/java/com/ecommerce/backend/payment/controller/PaymentController.java
 
-package com.ecommerce.backend.payment.controller;
+package com.ecommerce.backend.controller;
 
-import com.ecommerce.backend.order.model.Order;
-import com.ecommerce.backend.payment.dto.PaymentOrderDto;
-import com.ecommerce.backend.payment.dto.PaymentVerificationDto;
-import com.ecommerce.backend.payment.service.PaymentService;
+import com.ecommerce.backend.model.Order;
+import com.ecommerce.backend.dto.PaymentOrderDto;
+import com.ecommerce.backend.dto.PaymentVerificationDto;
+import com.ecommerce.backend.service.PaymentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
