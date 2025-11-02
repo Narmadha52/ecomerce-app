@@ -1,0 +1,184 @@
+/* ---------------------------------- */
+/* 1. CSS RESET & GLOBAL SETUP */
+/* ---------------------------------- */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Apply a clean box-sizing model globally */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Base font and background for the entire application */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: #f4f7f9; /* Light gray background */
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Ensure the main container provides horizontal centering */
+.container {
+  max-width: 1200px; /* Standard web width */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* ---------------------------------- */
+/* 2. LAYOUT & NAVIGATION STYLES */
+/* ---------------------------------- */
+
+.navbar {
+  /* Defined in Header.jsx as fixed top-0 w-full bg-indigo-700 shadow-lg */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #4f46e5; /* indigo-600 */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  padding: 0.75rem 0;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.navbar button {
+  /* Styles for the Logout button */
+  background-color: #dc2626; /* red-600 */
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+.navbar button:hover {
+  background-color: #b91c1c; /* red-700 */
+}
+
+/* Push main content down below the fixed header */
+main.container {
+    padding-top: 5rem; /* Sufficient space below the header */
+    padding-bottom: 2rem;
+    min-height: 100vh;
+}
+
+/* ---------------------------------- */
+/* 3. AUTH FORM STYLES (Login/Register) */
+/* ---------------------------------- */
+
+.auth-form-container {
+    max-width: 400px;
+    margin: 4rem auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    border-top: 5px solid #4f46e5; /* Accent color */
+}
+
+.auth-form-container h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #1f2937;
+}
+
+.auth-form-container label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #4b5563;
+    margin-top: 1rem;
+}
+
+.auth-form-container input[type="text"],
+.auth-form-container input[type="email"],
+.auth-form-container input[type="password"] {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.auth-form-container input:focus {
+    border-color: #4f46e5;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.2);
+}
+
+.auth-form-container button[type="submit"] {
+    width: 100%;
+    background-color: #4f46e5; /* indigo-600 */
+    color: white;
+    padding: 0.85rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    transition: background-color 0.2s;
+}
+
+.auth-form-container button[type="submit"]:hover {
+    background-color: #4338ca; /* indigo-700 */
+}
+
+.auth-form-container .message {
+    padding: 0.75rem;
+    margin-top: 1rem;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: 500;
+    color: #166534;
+    background-color: #d1fae5;
+    border: 1px solid #34d399;
+}
+
+
+/* ---------------------------------- */
+/* 4. FOOTER STYLES */
+/* ---------------------------------- */
+
+.footer-area {
+  /* Dark background for a standard footer look */
+  background-color: #1f2937; /* A dark gray/almost black */
+  color: #d1d5db; /* Light gray text */
+  padding: 1.5rem 0;
+  width: 100%;
+}
+
+.footer-area a {
+  text-decoration: none;
+  font-weight: 500;
+}
