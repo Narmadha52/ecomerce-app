@@ -1,6 +1,6 @@
-package com.ecommerce.backend.product.service;
+package com.ecommerce.backend.service;
 
-import com.ecommerce.backend.product.model.Product;
+import com.ecommerce.backend.model.Product;
 import com.ecommerce.backend.exception.ResourceNotFoundException;
 
 import java.util.List;
