@@ -1,10 +1,10 @@
 // src/main/java/com/ecommerce/backend/order/controller/OrderController.java
 
-package com.ecommerce.backend.order.controller;
+package com.ecommerce.backend.controller;
 
-import com.ecommerce.backend.order.model.Order;
-import com.ecommerce.backend.order.model.OrderStatus;
-import com.ecommerce.backend.order.service.OrderService;
+import com.ecommerce.backend.model.Order;
+import com.ecommerce.backend.model.OrderStatus;
+import com.ecommerce.backend.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
