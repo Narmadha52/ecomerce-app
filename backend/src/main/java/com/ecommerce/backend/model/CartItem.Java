@@ -1,6 +1,6 @@
 package com.ecommerce.backend.model;
 
-import com.ecommerce.backend.product.model.Product; // Assuming product is here
+import com.ecommerce.backend.model.Product; // Assuming product is here
 import jakarta.persistence.*;
 import lombok.Data;
 import lombok.NoArgsConstructor;
