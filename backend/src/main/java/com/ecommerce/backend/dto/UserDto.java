@@ -1,6 +1,6 @@
-package com.ecommerce.backend.user.dto;
+package com.ecommerce.backend.dto;
 
-import com.ecommerce.backend.user.model.Role;
+import com.ecommerce.backend.model.Role;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
