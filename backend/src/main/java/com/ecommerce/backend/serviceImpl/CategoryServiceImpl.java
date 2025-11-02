@@ -1,9 +1,9 @@
-package com.ecommerce.backend.category.service;
+package com.ecommerce.backend.service;
 
 import org.springframework.stereotype.Service;
 import lombok.RequiredArgsConstructor;
-import com.ecommerce.backend.category.repository.CategoryRepository;
-import com.ecommerce.backend.category.model.Category;
+import com.ecommerce.backend.repository.CategoryRepository;
+import com.ecommerce.backend.model.Category;
 import java.util.List;
 
 @Service
