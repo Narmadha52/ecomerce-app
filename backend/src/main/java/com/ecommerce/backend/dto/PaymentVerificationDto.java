@@ -1,6 +1,6 @@
 // src/main/java/com/ecommerce/backend/payment/dto/PaymentVerificationDto.java
 
-package com.ecommerce.backend.payment.dto;
+package com.ecommerce.backend.dto;
 
 import lombok.Data;
 
