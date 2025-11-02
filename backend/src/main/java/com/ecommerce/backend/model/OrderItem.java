@@ -1,6 +1,6 @@
-package com.ecommerce.backend.order.model;
+package com.ecommerce.backend.model;
 
-import com.ecommerce.backend.product.model.Product;
+import com.ecommerce.backend.model.Product;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.AllArgsConstructor;
