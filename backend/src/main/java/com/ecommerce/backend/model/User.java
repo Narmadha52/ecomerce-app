@@ -1,7 +1,7 @@
-package com.ecommerce.backend.user.model;
+package com.ecommerce.backend.model;
 
-import com.ecommerce.backend.cart.model.Cart;
-import com.ecommerce.backend.order.model.Order;
+import com.ecommerce.backend.model.Cart;
+import com.ecommerce.backend.model.Order;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
