@@ -1,4 +1,4 @@
-package com.ecommerce.backend.user.service;
+package com.ecommerce.backend.service;
 
 import java.util.List;
 
