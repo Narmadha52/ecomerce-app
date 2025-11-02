@@ -1,8 +1,8 @@
-package com.ecommerce.backend.order.service;
+package com.ecommerce.backend.service;
 
-import com.ecommerce.backend.order.model.OrderStatus;
-import com.ecommerce.backend.order.payload.CheckoutRequest;
-import com.ecommerce.backend.order.payload.OrderDto;
+import com.ecommerce.backend.model.OrderStatus;
+import com.ecommerce.backend.payload.CheckoutRequest;
+import com.ecommerce.backend.payload.OrderDto;
 import java.util.List;
 
 /**
